@@ -282,35 +282,6 @@ cd frontend
 npm run lint    # Oxlint (0 errors)
 npm run build   # Production bundle verification
 ```
-
----
-
-## 📤 Pushing to Your GitHub Repository
-
-When you are ready to push this codebase to GitHub:
-
-```bash
-# 1. Initialize git repository
-git init
-
-# 2. Add all files (the updated .gitignore protects your .env and secrets)
-git add .
-
-# 3. Create your initial commit
-git commit -m "feat: complete AI Debate Simulator with multi-model faceoffs, streaming, radar charts, and prediction game"
-
-# 4. Set main branch
-git branch -M main
-
-# 5. Connect your remote repository
-git remote add origin https://github.com/<your-github-username>/<your-repo-name>.git
-
-# 6. Push to GitHub
-git push -u origin main
-```
-
----
-
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
